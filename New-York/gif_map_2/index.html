@@ -112,5 +112,29 @@
 				}
 		</script>
 
+
+<!--        removes google logo         -->
+        <style>
+                    a[href^="http://maps.google.com/maps"]{display:none !important}
+                    a[href^="https://maps.google.com/maps"]{display:none !important}
+                    .gmnoprint a, .gmnoprint span, .gm-style-cc {
+                        display:none;
+                    }
+                    .gmnoprint div {
+                        background:none !important;
+}
+
+        </style>
+<!--        removes google logo         -->
+
+
+
+        <!--        API KEY     -->
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG1nOCeqlfhXT3kiOFPP9Xk1UKLo4aWnQ&callback=initMap"
+        type="text/javascript">
+	</script>
+
+
+
 	</body>
 </html>
